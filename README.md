@@ -24,6 +24,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 ![image](https://github.com/RESMIRNAIR/ENCODER3TO8/assets/154305926/6fa5fe84-fe6f-472d-b9c0-e6dfa17413d3)
 ![image](https://github.com/RESMIRNAIR/ENCODER3TO8/assets/154305926/7d147e2a-ba03-4714-baee-17615c9c50c1)
 # VERILOG CODE
+```
 module encoder(d,a,b,c);
 
 input [7:0]d;
@@ -37,6 +38,7 @@ or (b,d[2],d[3],d[6],d[7]);
 or (c,d[1],d[3],d[5],d[7]);
 
 endmodule
+```
 # OUTPUT
 ![image](https://github.com/Shreegobika/ENCODER8TO3/assets/160569525/24d9c503-c49c-409a-9929-96a1d3530dfd)
 # RESULT:
